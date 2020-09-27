@@ -1,4 +1,4 @@
-# Python program to web scrape data for all SPX500 companies
+# Python program to web scrape short percent of float for all SPX500 companies
 Uses beautiful soup to web scrape data from http://shortsqueeze.com/. This script launches an automated chrome window which opens short squeeze.com at a ticker taken from the SPX500 list itscrapped from [wikipedia page](http://en.wikipedia.org/wiki/List_of_S%26P_500_companies).
 This program configure selenium's chrome webdrive to use Tor's (free browser) proxy. This enables us to get more than the limited daily quotes from short squeeze which are based on public I.P. address. Tor must be open while the program runs.
 
