@@ -67,7 +67,7 @@ def sp500_tickers():
     tickers = []
     for row in table.findAll('tr')[1:]:
         ticker = row.findAll('td')[0].text
-        tickers.append(ticker[:-2])
+        tickers.append(ticker.strip('\n'))
     return tickers
 
 def retreiveShort(ticker):
